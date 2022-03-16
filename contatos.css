@@ -1,0 +1,184 @@
+/* Link do Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+/* Zerando a definição dos atributos */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+i{
+    margin: 5px
+}
+
+/* Embrulho e flex-box */
+
+.wrapper{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Cabeçalho do site */
+
+#cabecalho {
+    padding: 32px 0;
+    color: #fff;
+    background-color: #183153;
+    position: sticky;
+    top: 0;
+
+}
+
+.btn{
+    font-family: 'Red Rose', cursive;
+    color: #183153;
+    background-color: #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+.btn > h3{
+    color: #183153;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+
+
+/* Titulo e Paragrafo do site */
+
+.textos_contato>h2 {
+    color: #183153;
+    margin-bottom: 32px;
+    font-size: 26px;
+    padding: 25px 0px 0px 0px;
+}
+
+.textos_contato>p {
+    color: #183153;
+    font-size: 18px;
+}
+
+/* Estilização do Formulário do site */
+
+#form_contato {
+    margin-top: 64px;
+}
+
+.inputs_form {
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.input_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    margin-bottom: 32px;
+}
+
+.input_textarea {
+    width: 100%;
+}
+
+.input_textarea>textarea {
+    resize: none;
+    height: 120px;
+}
+
+.input_texto>input, .input_texto>textarea {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #183153;
+    background-color: #f3f5f7;
+    font-size: 18px;
+    color: #000;
+}
+
+.input_texto>input:focus, .input_texto>textarea:focus {
+    outline: none;
+    border-color: #183153;
+    ;
+}
+
+.input_texto>label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #183153;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #183153;
+}
+
+/* Botão de enviar */
+
+#btn_enviar {
+    padding: 22px 42px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #183153;
+    border: none;
+    color: #f3f5f7;
+    margin: auto;
+}
+
+#btn_enviar:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* Estilizando o rodapé do site */
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Red Rose', cursive;
+    color: #fff;
+    background-color: #183153;
+}
+
+/* Estilizando as fontes do site */
+
+h3{
+    font-family: 'Red Rose', cursive;
+    font-size: 600;
+    color: #fff; 
+    padding: 10px;
+     
+}
+
+p{
+    font-family: 'Red Rose', cursive;
+    font-size: 60;
+    color: #fff;
+}
+
+/* Estilizando a tela total do site */
+
+main{
+    min-height: 82.1vh;
+    padding: 80px;
+}

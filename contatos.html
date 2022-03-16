@@ -1,0 +1,89 @@
+<!-- Links, titulo e etc.. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8f6071224f.js" crossorigin="anonymous"></script>
+    <title>MixSports - Contatos</title>
+    <link rel="stylesheet" href="./contatos.css">
+</head>
+
+<!--  Cabeçalho do Site -->
+
+<header id="cabecalho">
+    <nav class="wrapper flex">
+        <div class="flex">
+            <i class="fa-solid fa-house-chimney"></i>
+            <a href="./index.html">
+                <h3>Home</h3>
+            </a>
+        </div>
+        
+        <div id="links_site1">
+            <div class="flex">
+                <a href="./index.html">
+                    <h3 id="logo">MixSports</h3>
+                </a>
+                <!-- <a href="#conteudo_basquete"><i class="fa-solid fa-basketball"></i></a>  -->
+                <!-- <a href="#conteudo_futebolAmericano"><i class="fa-solid fa-football"></i></a> -->
+                <!-- <a href="#conteudo_futebol"><i class="fa-solid fa-futbol"></i></a>  -->
+                <!-- <a href="#conteudo_golfe"><i class="fa-solid fa-golf-ball-tee"></i></a> -->
+                <!-- <a href="#conteudo_beisebol"><i class="fa-solid fa-baseball"></i></a>  -->
+            </div>
+        </div>
+        <div class="flex">
+            <a class="btn" href="./contatos.html">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Contatos</h3>
+            </a>
+        </div>
+    </nav>
+</header>
+
+
+<!--  Corpo do Site -->
+
+<body>
+    <main>
+
+        <!-- Seção de contato  -->
+
+    <section id="secao_contato" class="wrapper">
+        <div class="textos_contato">
+            <h2>Entre em contato!</h2>
+            <p>Ajude nosso site, opine sobre o site, aponte algum erro que você achou no site e etc..</p>
+        </div>
+        <form id="form_contato">
+            <div class="inputs_form flex">
+                <div class="input_texto">
+                    <label for="nome_usuario"></label>
+                    <input id="nome_usuario" type="text" placeholder="Nome do usuário">
+                </div>
+                <div class="input_texto">
+                    <label for="motivo_contato"></label>
+                    <input id="motivo_contato" type="email" placeholder="Motivo do contato">
+                </div>
+                <div class="input_texto">
+                    <label for="email_usuario"></label>
+                    <input id="email_usuario" type="email" placeholder="E-mail do usuário">
+                </div>
+                <div class="input_texto input_textarea">
+                    <label for="mensagem_usuario"></label>
+                    <textarea id="mensagem_usuario" placeholder="Digite sua mensagem!" maxlength="280"></textarea>
+                </div>
+            </div>
+            <button type="button" id="btn_enviar" class="flex">Enviar mensagem!</button>
+        </form>
+    </section>
+</main>
+</body>
+
+<!-- Rodapé com copyright-->
+
+<footer>
+    <p> Copyright 2014 - 2022 MixSports &copy;</p>
+</footer>
+</html>

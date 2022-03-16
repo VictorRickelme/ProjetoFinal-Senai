@@ -1,0 +1,529 @@
+/* Link do Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+/* Scroll-Behavior */
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Ancoras do jeito certo */
+
+/* .ancoras{ */
+    /* padding-top: 300px; */
+/* } */
+
+/* Zerando a definição dos atributos */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+i{
+    margin: 5px
+}
+
+/* Embrulho e flex-box */
+
+.wrapper{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilizando o cabeçalho */
+
+#cabecalho {
+    padding: 32px 0;
+    color: #fff;
+    background-color: #183153;
+    position: sticky;
+    top: 0px;
+
+}
+
+.btn{
+    font-family: 'Red Rose', cursive;
+    color: #183153;
+    background-color: #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    width: fit-content;
+}
+
+.btn > h3{
+    color: #183153;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+
+/* Cor do body */
+
+body{
+    background-color: #5a5a5a;
+    background: linear-gradient(90deg, #222222e3 100%, #202020e1 100%);
+}
+
+/* Estilizando a seção artigos do site*/
+
+#secao-artigos{
+    padding: 0px 0px;
+}
+
+#conteudo_basquete{
+    background-image:url(./img/Imagem\ Basquete.png);
+    width: 100%;
+    height: 810px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#conteudo_futebolAmericano{
+    background-image:url(./img/Imagem\ Futebol\ Americano.png);
+    width: 100%;
+    height: 810px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#conteudo_futebol{
+    background-image:url(./img/imagem\ futebol2.png);
+    width: 100%;
+    height: 810px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#conteudo_golfe{
+    background-image:url(./img/Imagem\ Golfe.png);
+    width: 100%;
+    height: 810px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#conteudo_beisebol{
+    background-image: url(./img/Imagem\ Baseball.png);
+    width: 100%;
+    height: 810px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#conteudo_sobreNos{
+    background-image: url(./img/imagem\ Sobre\ nós.png);
+    width: 100%;
+    height: 810px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;;
+}
+
+#secao-artigos h3{
+    font-size: 48px;
+}
+
+#secao-artigos p{
+    font-size: 24px;
+}
+
+/* #conteudo_basquete > h3{ 
+    font-size: 48px;
+}
+
+#conteudo_basquete > p{
+    font-size: 24px;
+}
+
+#conteudo_futebolAmericano >h3{
+    font-size: 48px;
+}
+
+#conteudo_futebolAmericano > p{
+    font-size: 24px;
+}
+
+#conteudo_futebol > h3{
+    font-size: 48px;
+}
+
+#conteudo_futebol > p{
+    font-size: 24px;
+}
+
+#conteudo_golfe > h3{
+    font-size: 48px;
+}
+
+#conteudo_golfe > p{
+    font-size: 24px;
+}
+
+#conteudo_beisebol > h3{
+    font-size: 48px;
+}
+
+#conteudo_beisebol > p{
+    font-size: 24px;
+}
+
+*/
+
+#conteudo_sobreNos > h3{ 
+    font-size: 60px;
+}
+
+#conteudo_sobreNos > p{
+    font-size: 30px;
+} 
+
+/* Estilizando o contéudo final do site */
+
+#conteudo_final{
+    background-image: url(./img/image\ Rodapé.png);
+    width: 100%;
+    height: 810px;
+    background-size: cover;
+}
+
+#conteudo_final > #estrelas_avaliacao{
+    flex-wrap:  wrap;
+    align-content: flex-end;
+   
+}
+
+#estrelas_avaliacao > h4{
+    color: #fff;
+    font-family: 'Red Rose', cursive;
+    font-size: 26;
+    
+}
+
+#embrulho-final{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#estrelas_avaliacao > i{
+    color: #F9AB50;
+}
+
+#redes_sociais > a{
+    color: #fff;
+}
+
+#paragrafo_final > h3{
+    font-size: 60px;
+}
+
+#paragrafo_final > p{
+    font-size: 25px;
+}
+
+#estrelas_avaliacao > h4{
+    font-size: 26px;
+}
+
+#estrelas_avaliacao > i{
+    font-size: 23px;
+}
+
+#redes_sociais > a{
+    font-size: 50px;
+}
+
+#facebookIcon:hover{
+    color: #1877F2;
+}
+
+#twitterIcon:hover{
+    color: #15B3F8;
+}
+
+#instagramIcon:hover{
+color: #F82CB3;
+}
+
+#youtubeIcon:hover{
+    color: #FF0707;
+}
+
+/* Estilizando as fontes do site */
+
+h3{
+    font-family: 'Red Rose', cursive;
+    font-size: 600;
+    color: #fff; 
+     
+}
+
+p{
+    font-family: 'Red Rose', cursive;
+    font-size: 60;
+    color: #fff;
+}
+
+/* Estilizando o rodapé do site */
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Red Rose', cursive;
+    color: #fff;
+    background-color: #183153;
+}
+
+/* Responsividade */
+
+@media screen and (max-width:1100px){
+    #secao-artigos h3{
+        font-size: 32px;
+    }
+
+    #secao-artigos p{
+        font-size: 16px;
+        padding: 0 120px;
+    }
+
+    .btn{
+        padding: 12px 16px;
+        border-radius: 5px;
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    #conteudo_basquete{
+        height: 650px;
+    }
+
+    #conteudo_futebolAmericano{
+        height: 650px;
+    }
+
+    #conteudo_futebol{
+        height: 650px;
+    }
+
+    #conteudo_golfe{
+        height: 650px;
+    }
+
+    #conteudo_beisebol{
+        height: 650px;
+    }
+
+    #conteudo_sobreNos{
+        height: 650px;
+    }
+
+    #redes_sociais > a{
+        font-size: 40px;
+    }
+
+    #estrelas_avaliacao > h4{
+        font-size: 20px;
+    }
+
+    #estrelas_avaliacao > i{
+        font-size: 18px;
+    }
+
+    #conteudo_basquete{
+        height: 600px;
+    }
+
+    #conteudo_futebolAmericano{
+        height: 600px;
+    }
+
+    #conteudo_futebol{
+        height: 600px;
+    }
+
+    #conteudo_golfe{
+        height: 600px;
+    }
+
+    #conteudo_beisebol{
+        height: 600px;
+    }
+
+    #conteudo_sobreNos{
+        height: 600px;
+    }
+
+    #paragrafo_final > h3{
+        font-size: 50px;
+    }
+
+    #paragrafo_final > p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:650px){
+    #secao-artigos h3{
+        font-size: 32px;
+    }
+
+    #secao-artigos p{
+        font-size: 16px;
+        padding: 0 120px;
+    }
+
+    .btn{
+        padding: 14px 18px;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 4px 8px;
+    }
+
+    #redes_sociais > a{
+        font-size: 40px;
+    }
+
+    #estrelas_avaliacao > h4{
+        font-size: 20px;
+    }
+
+    #estrelas_avaliacao > i{
+        font-size: 18px;
+    }
+
+    #conteudo_basquete{
+        height: 400px;
+    }
+
+    #conteudo_futebolAmericano{
+        height: 400px;
+    }
+
+    #conteudo_futebol{
+        height: 400px;
+    }
+
+    #conteudo_golfe{
+        height: 400px;
+    }
+
+    #conteudo_beisebol{
+        height: 400px;
+    }
+
+    #conteudo_sobreNos{
+        height: 400px;
+    }
+
+    #conteudo_final{
+        height: 400px;
+    }
+
+    #paragrafo_final > h3{
+        font-size: 32px;
+    }
+
+    #paragrafo_final > p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:520px){
+    #redes_sociais > a{
+        font-size: 25px;
+    }
+
+    #estrelas_avaliacao > h4{
+        font-size: 16px;
+    }
+
+    #estrelas_avaliacao > i{
+        font-size: 14px;
+    }
+
+    #conteudo_sobreNos > h3{
+        font-size: 28px;
+    }
+
+    #conteudo_sobreNos > p{
+        font-size: 14px;
+    }
+
+    .btn{
+        padding: 10px 22px;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 4px 8px;
+    }
+
+    #conteudo_basquete{
+        height: 350px;
+    }
+
+    #conteudo_futebolAmericano{
+        height: 350px;
+    }
+
+    #conteudo_futebol{
+        height: 350px;
+    }
+
+    #conteudo_golfe{
+        height: 350px;
+    }
+
+    #conteudo_beisebol{
+        height: 350px;;
+    }
+
+    #conteudo_sobreNos{
+        height: 350px;
+    }
+
+    #conteudo_final{
+        height: 350px;
+    }
+
+    #links_site1 > a{
+        display: none;
+    }
+}
+
+
+/* 48 24 */
